@@ -14,6 +14,11 @@
 		E6AA20201B6E44F600758F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AA201E1B6E44F600758F21 /* Main.storyboard */; };
 		E6AA20221B6E44F600758F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AA20211B6E44F600758F21 /* Assets.xcassets */; };
 		E6AA20251B6E44F600758F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AA20231B6E44F600758F21 /* LaunchScreen.storyboard */; };
+		E6AA202D1B6E456000758F21 /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA202C1B6E456000758F21 /* Array+Shuffling.swift */; };
+		E6AA202F1B6E456500758F21 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA202E1B6E456500758F21 /* Helper.swift */; };
+		E6AA20311B6E46C500758F21 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA20301B6E46C500758F21 /* WhackSlot.swift */; };
+		E6AA20331B6E549500758F21 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = E6AA20321B6E549500758F21 /* whackBad.caf */; };
+		E6AA20351B6E54AB00758F21 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = E6AA20341B6E54AB00758F21 /* whack.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		E6AA20211B6E44F600758F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6AA20241B6E44F600758F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6AA20261B6E44F600758F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AA202C1B6E456000758F21 /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
+		E6AA202E1B6E456500758F21 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E6AA20301B6E46C500758F21 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		E6AA20321B6E549500758F21 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		E6AA20341B6E54AB00758F21 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,8 @@
 			children = (
 				E6AA20151B6E44F600758F21 /* Whack */,
 				E6AA20141B6E44F600758F21 /* Products */,
+				E6AA20321B6E549500758F21 /* whackBad.caf */,
+				E6AA20341B6E54AB00758F21 /* whack.caf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +74,9 @@
 				E6AA20181B6E44F600758F21 /* GameScene.sks */,
 				E6AA201A1B6E44F600758F21 /* GameScene.swift */,
 				E6AA201C1B6E44F600758F21 /* GameViewController.swift */,
+				E6AA202E1B6E456500758F21 /* Helper.swift */,
+				E6AA202C1B6E456000758F21 /* Array+Shuffling.swift */,
+				E6AA20301B6E46C500758F21 /* WhackSlot.swift */,
 				E6AA201E1B6E44F600758F21 /* Main.storyboard */,
 				E6AA20211B6E44F600758F21 /* Assets.xcassets */,
 				E6AA20231B6E44F600758F21 /* LaunchScreen.storyboard */,
@@ -127,10 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AA20331B6E549500758F21 /* whackBad.caf in Resources */,
 				E6AA20191B6E44F600758F21 /* GameScene.sks in Resources */,
 				E6AA20251B6E44F600758F21 /* LaunchScreen.storyboard in Resources */,
 				E6AA20221B6E44F600758F21 /* Assets.xcassets in Resources */,
 				E6AA20201B6E44F600758F21 /* Main.storyboard in Resources */,
+				E6AA20351B6E54AB00758F21 /* whack.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AA20311B6E46C500758F21 /* WhackSlot.swift in Sources */,
+				E6AA202D1B6E456000758F21 /* Array+Shuffling.swift in Sources */,
 				E6AA201B1B6E44F600758F21 /* GameScene.swift in Sources */,
+				E6AA202F1B6E456500758F21 /* Helper.swift in Sources */,
 				E6AA201D1B6E44F600758F21 /* GameViewController.swift in Sources */,
 				E6AA20171B6E44F600758F21 /* AppDelegate.swift in Sources */,
 			);
